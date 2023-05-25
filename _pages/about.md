@@ -1,9 +1,9 @@
+---
+permalink: /
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
-<div class="aplayer" data-id="1496089152" data-server="netease" data-type="song" data-mode="single"></div>
----
-permalink: /
+BackgroundMusic: <div class="aplayer" data-id="1496089152" data-server="netease" data-type="song" data-mode="single"></div>
 title: "Bio"
 excerpt: "About me"
 author_profile: true
