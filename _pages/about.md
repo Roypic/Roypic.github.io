@@ -14,3 +14,7 @@ News
 ======
 [February, 2022] One paper accepted by MIDL 2022!
 
+Interests and Practice
+======
+[Tone simulation] I'm trying apply my tone to different songs. This practice is on going.
+
