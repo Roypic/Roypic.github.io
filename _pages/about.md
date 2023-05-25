@@ -16,5 +16,5 @@ News
 
 Interests and Practice
 ======
-[Tone simulation] I'm trying apply my tone to different songs. This practice is on going.
+[Tone simulation] I'm trying apply my tone to different songs following <br> <a href="https://github.com/svc-develop-team/so-vits-svc"  target="opentype">so-vits-svc</a>. This practice is on going.
 
