@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<b> Hybrid ladder transformers with efficient parallel-cross attention for medical image segmentation </b> <br> Haozhe Luo, Yu Changdong, Raghavendra Selvan. <br> International Conference on Medical Imaging with Deep Learning. <br> <a href="https://proceedings.mlr.press/v172/luo22a.html"  target="opentype">[Paper]</a>
+<b> Hybrid ladder transformers with efficient parallel-cross attention for medical image segmentation </b> <br> Haozhe Luo, Yu Changdong, Raghavendra Selvan. <br> 5th International Conference on Medical Imaging with Deep Learning. <br> <a href="https://proceedings.mlr.press/v172/luo22a.html"  target="opentype">[Paper]</a>
 
 <b> A cascaded convolutional neural network for two-phase flow PIV of an object entering water </b> <br> Changdong Yu, Haozhe Luo, Yiwei Fan, Xiaojun Bi, Mingjie He. <br> IEEE Transactions on Instrumentation and Measurement. <br> <a href="https://ieeexplore.ieee.org/abstract/document/9617592"  target="opentype">[Paper]</a>
 
