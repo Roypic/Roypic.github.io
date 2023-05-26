@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Haozhe Luo / Master Candidate of UZH"
+title                    : "Haozhe Luo"
 title_separator          : "-"
 name                     : &name "Haozhe Luo"
 description              : &description "personal description"
