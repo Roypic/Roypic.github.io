@@ -49,7 +49,7 @@ Honors and Awards
 * Individual first-class Scholarship, Sichuan University - 2021
 * College Students’ Innovative Entrepreneurial Training Plan Program National level Awards, Ministry
 of Education of the People’s Republic of China - 2021
-2021 College Students’ Innovative Entrepreneurial Training Plan Program Provincial level Awards, Ministry
+* College Students’ Innovative Entrepreneurial Training Plan Program Provincial level Awards, Ministry
 of Education of the People’s Republic of China - 2021
 * Contemporary Undergraduate Mathematical Contest in Modeling 3rd Prize in Sichuan Province - China Society for Industrial and Applied Mathematics - 2020
 * College Students’ Innovative Entrepreneurial Training Plan Program Provincial level, Ministry of Education of the People’s Republic of China - 2020
