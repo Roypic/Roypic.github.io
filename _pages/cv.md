@@ -34,7 +34,7 @@ Experience
 * June 2021 - November 2021: Undergraduate Student Research Training
   * Sichuan University (SCU)
   * Topic: Medical Image Analysis, Computer Vision
-  * Supervisor: Prof.Zhenan He, Dr. Wanzhong Song 
+  * Supervisor: Prof. Zhenan He, Dr. Wanzhong Song 
 
   
 Skills
