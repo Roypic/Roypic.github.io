@@ -21,6 +21,10 @@ Interests and Practice
 [Tone simulation] I'm trying apply my tone to different songs following <a href="https://github.com/svc-develop-team/so-vits-svc"  target="opentype">so-vits-svc</a>. This practice is on going.  
 [Human-Talkhead] I use Midjourney to help me generate cartoon figure from portrait with Prompt: "cartoon 3d render of an attractive and cute young girl smiling at the camera, yellow background, funny cartoon in the style of Pixar --ar 3:2 --v 5 --iw 1.5". Then use d-id or <a href="https://github.com/OpenTalker/SadTalker/tree/main"  target="opentype">SadTalker</a> to generate text-driven animation vedio.    
 
+
+https://github.com/Roypic/Roypic.github.io/assets/50487307/7f13de7c-f443-4ffe-b165-cd90b60e8c51
+
+
 Music
 ======
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css">
