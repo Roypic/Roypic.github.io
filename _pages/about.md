@@ -22,7 +22,7 @@ Music
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
 <div class="aplayer" data-id="1496089152" data-server="netease" data-type="song" data-mode="single"></div>  
-
+</br>
 Interests and Practice
 ======
 [Tone simulation] I'm trying apply my tone to different songs following <a href="https://github.com/svc-develop-team/so-vits-svc"  target="opentype">so-vits-svc</a>. This practice is on going.  
