@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Interests and Practice"
-permalink: /publications/
+permalink: /portfolio/
 author_profile: true
 ---
 [Tone simulation] I'm trying apply my tone to different songs following <a href="https://github.com/svc-develop-team/so-vits-svc"  target="opentype">so-vits-svc</a>. This practice is on going.  
