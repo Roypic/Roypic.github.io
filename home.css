@@ -499,14 +499,14 @@ font-weight: 200;
 
   position: absolute;
   left: 88px;
-  top: 780px;
+  top: 480px;
   padding-bottom: 150px;
 }
 
 .github img {
 
   position: absolute;
-  top: 800px;
+  top: 500px;
   left: 125px;
   transition: .5s;
   cursor: pointer;
@@ -516,7 +516,7 @@ font-weight: 200;
 .youtube img {
 
   position: absolute;
-  top: 845px;
+  top: 545px;
   left: 125px;
   transition: .5s;
   cursor: pointer;
@@ -526,7 +526,7 @@ font-weight: 200;
 .instagram img {
 
   position: absolute;
-  top: 890px;
+  top: 590px;
   left: 125px;
   transition: .5s;
   cursor: pointer;
@@ -536,7 +536,7 @@ font-weight: 200;
 .linkedin img {
 
   position: absolute;
-  top: 935px;
+  top: 635px;
   left: 125px;
   transition: .5s;
   cursor: pointer;
