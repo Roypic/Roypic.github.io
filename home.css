@@ -518,6 +518,8 @@ font-weight: 200;
   position: absolute;
   top: 545px;
   left: 125px;
+  width: 20px;
+  height: 20px;
   transition: .5s;
   cursor: pointer;
 }
