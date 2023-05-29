@@ -95,7 +95,7 @@ nav ul li:last-child {
 nav ul li a {
     display: inline-block;
     outline: none;
-    color: #0ba600;
+    color: #919191;
     font-family: Blender Pro;
     text-decoration: none;
     font-size: 19px;
@@ -106,7 +106,7 @@ nav ul li a {
 
 nav ul li a:hover {
 
-    color: #FCEE09;
+    color: #919191;
     transition: 0.5s;
 }
 
