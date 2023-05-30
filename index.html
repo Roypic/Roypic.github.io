@@ -42,9 +42,9 @@
     <h1 class="glitch" data-text="Haozhe Luo">Haozhe Luo</h1>
 </div>
 
-<div class="tagline">
+<!-- <div class="tagline">
     <h2>Master student in Artificial Intelligence, University of Zurich</h2>
-</div>
+</div> -->
 
 
 <!--Button-->
@@ -107,4 +107,41 @@
         // if you want to do something here.
     }
 </script>
+</html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="cyberpunk-2077.css">
+    <style>
+        .top {
+            position: relative;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var position = $('.tagline').position();
+            // $('.top').css('position', 'absolute');
+            $('.top').css('top', position.top);
+            $('.top').css('left', position.left);
+            $('.top').css('width', position.width);
+            $('.top').css('height', position.height);
+        });
+    </script>
+</head>
+<body>
+    <div class="tagline" style="visibility: hidden;">
+        <h2>Master student in Artificial Intelligence, University of Zurich</h2>
+    </div>
+    <div class="top">
+        <p class="cyberpunk inverse scannedh">Master student in Artificial Intelligence, University of Zurich.</p>
+    </div>
+</body>
 </html>

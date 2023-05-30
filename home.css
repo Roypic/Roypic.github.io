@@ -105,8 +105,8 @@ text-decoration: underline;
   display: flex;
   position: absolute;
   margin: 0;
-  top: 370px;
-  left: 280px;
+  top: 170px;
+  left: 580px;
   z-index: 1;
 }
 
@@ -191,7 +191,7 @@ text-decoration: underline;
   color: #fff;
   font-weight: 100;
   font-size: 25px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   left: 283px;
   top: 530px;
 }
@@ -855,14 +855,15 @@ font-weight: 200;
 
   .text_header {
 
-    top: 320px;
+    top: 220px;
   }
 
 
   .tagline {
 
     position: relative;
-    top: -140px;
+    left: 380px;
+    top: -180px;
   }
 
   .button_container {
