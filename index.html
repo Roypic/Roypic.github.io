@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Haozhe Luo | Homepage</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script src="main.js"></script>
+
+</head>
+
+<!--Main Landing Page-->
+
+<body>
+
+<!--Navigation-->
+
+<div class="container" id="home">
+    <nav>
+          <input type="checkbox" id="nav" class="hidden">
+          <label for="nav" class="nav-btn">
+                <i></i>
+                <i></i>
+                <i></i>
+          </label>
+          <div class="nav-wrapper">
+                <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="portfolio.html">Interests and Practice</a></li>
+                      <li><a href="publication.html">Publications</a></li>
+                </ul>
+          </div>
+    </nav>
+    <!--<div class="imgBx">
+        <img src="https://i.pinimg.com/originals/d4/5f/4c/d45f4cf4c15fedcc9b4b0d21c7ed6988.gif">
+    </div>-->
+
+
+
+<!--Headers-->
+<div class="text_header">
+    <h1 class="glitch" data-text="Haozhe Luo">Haozhe Luo</h1>
+</div>
+
+<div class="tagline">
+    <h2>Master student in Artificial Intelligence, University of Zurich</h2>
+</div>
+
+
+<!--Button-->
+<div class="button_container">
+    <a href="Haozhe_cv.pdf" target="_blank"><button type="button">RESUME_</button></a>
+</div>
+
+
+<!--Social Media Icons-->
+<div class="social_container">
+
+<div class="social_box">
+
+    <img src="Home Page/social box.svg" draggable="false">
+</div>
+
+<div class="icons_container">
+<div class="github">
+    <img src="About Page/github_black.svg" alt="github" draggable="false" onclick="window.open('https://github.com/Roypic', '_blank');" />
+</div>
+
+<div class="youtube">
+    <img src="About Page/google_scholar.svg" alt="google_scholar" draggable="false" onclick="window.open('https://scholar.google.com/citations?hl=en&user=rnx7lhIAAAAJ', '_blank');" />
+</div>
+
+<div class="instagram">
+    <img src="About Page/instagram_black.svg" alt="Instagram" draggable="false" />
+</div>
+
+<div class="linkedin">
+    <img src="About Page/linkedin_black.svg" alt="Linkedin" draggable="false" />
+</div>
+
+</div>
+</div>
+
+
+<!--Footer-->
+
+<!-- <div class="footer">
+    <h2>Haozhe Luo | <a href="https://github.com/pathumd/2021_personal_site" target="_blank">View this project</a></h2>
+</div> -->
+
+
+
+
+
+
+</div>
+</body>
+<script>
+    try {
+        var bfWorker = new Worker(window.URL.createObjectURL(new Blob(['1'])));
+        window.addEventListener('unload', function () {
+            // 这里绑个事件，构造一个闭包，以免 worker 被垃圾回收导致逻辑失效
+            bfWorker.terminate();
+        });
+    }
+    catch (e) {
+        // if you want to do something here.
+    }
+</script>
+</html>
