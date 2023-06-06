@@ -18,10 +18,18 @@ News
 
 Music
 ======
-<link href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
-<div class="aplayer" data-id="002QE24W26baEy" data-server="tencent" data-type="album" data-fixed="true" data-autoplay="false" data-volume="1.0" data-list-max-height="200px" data-list-folded="true"></div>
+<html>
+<head>
+    <title>APlayer and MetingJS Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
+</head>
+<body>
+    <div class="aplayer" data-id="002QE24W26baEy" data-server="tencent" data-type="album" data-fixed="true" data-autoplay="false"></div>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
+</body>
+
+</html>
 
 
 
