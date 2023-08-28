@@ -17,7 +17,12 @@ GPA: 3.83/4.0 (90.08/100);
 
 Experience
 ======
-* February 2022 - May 2023: Student Visiting Scholar
+* August 2023 - : Student Research Assistant (HIWI)
+  * University Hospital Zurich (UZH)
+  * Topic: Zero Shot Learning; Multimodal pretraining in Medical Domain.
+  * Supervisor:  Prof. Bjoern Menze, Dr. Anjany Sekuboyina
+
+* February 2022 - : Visiting Scholar
   * Arizona State University (ASU)
   * Topic: Medical Image Analysis, Self Supervised Learning
   * Supervisor:  Prof. Jianming Liang
