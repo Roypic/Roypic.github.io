@@ -36,7 +36,7 @@ Experience
   * Topic: Medical Image Segmentation with Transformer Architecture
   * Supervisor: Prof. Raghavendra Selvan
 
-* June 2021 - November 2021: Undergraduate Student Research Training
+* June 2019 - November 2021: Undergraduate Student Research Training
   * Sichuan University (SCU)
   * Topic: Medical Image Analysis, Computer Vision
   * Supervisor: Prof. Zhenan He, Dr. Wanzhong Song 
