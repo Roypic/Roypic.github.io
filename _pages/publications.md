@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <!-- {% include base_path %} -->
-<b> Learning Anatomically Consistent Embedding for Chest Radiography </b> <br> Ziyu Zhou, Haozhe Luo, Jiaxuan Pang, Xiaowei Ding, Micheal Gotway, Jianming Liang. <br> 34th British Machine Vision Conference. 
+<b> Learning Anatomically Consistent Embedding for Chest Radiography </b> <br> *Ziyu Zhou, *Haozhe Luo, Jiaxuan Pang, Xiaowei Ding, Micheal Gotway, Jianming Liang. <br> 34th British Machine Vision Conference. 
 
 <b> Hybrid ladder transformers with efficient parallel-cross attention for medical image segmentation </b> <br> Haozhe Luo, Yu Changdong, Raghavendra Selvan. <br> 5th International Conference on Medical Imaging with Deep Learning. <br> <a href="https://proceedings.mlr.press/v172/luo22a.html"  target="opentype">[Paper]</a>
 
