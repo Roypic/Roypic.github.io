@@ -13,6 +13,7 @@ Hi, I am a first year master student in Artificial Intelligence at  University o
 
 News
 ======
+Preparing for CVPR 2024
 [August, 2023] One paper got accpeted by BMVC 2023!  
 [February, 2022] One paper got accepted by MIDL 2022!  
 
