@@ -10,8 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="/assets/my_cv.pdf" target="_blank">
-  <img src="/assets/cv.jpg" alt="Click to view my CV" style="width:200px;"/>
+<a href="./assets/my_cv.pdf" target="_blank">
+  <img src="./assets/cv.jpg" alt="Click to view my CV" style="width:200px;"/>
 </a>
 
 Education
