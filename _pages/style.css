@@ -1,18 +1,20 @@
-.place-row {
-    text-align: center;
-}
+/* 在 styles.css 中添加或修改以下样式 */
 
 .image-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* 调整图像之间的间距 */
+    display: flex; /* 使用 Flexbox 布局 */
+    flex-wrap: wrap; /* 允许元素在需要时换行 */
+    justify-content: space-around; /* 图片之间平均分配空间 */
+    align-items: center; /* 垂直居中对齐 */
 }
 
 .image-block {
-    flex-basis: 50%; /* 每个图像块占据容器宽度的50% */
+    flex: 1; /* 允许每个图片块自适应空间 */
+    margin: 10px; /* 为图片块添加外边距 */
+    text-align: center; /* 文字居中对齐 */
 }
 
 .image-block img {
-    width: 100%; /* 让图像填充整个图像块 */
-    height: auto; /* 保持图像的宽高比 */
+    width: 100%; /* 图片宽度占满其父容器 */
+    height: auto; /* 高度自动调整 */
+    max-width: 200px; /* 设置图片的最大宽度 */
 }
