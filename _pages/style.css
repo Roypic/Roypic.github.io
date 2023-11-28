@@ -1,20 +1,37 @@
-/* 在 styles.css 中添加或修改以下样式 */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.place-row {
+    margin: 20px;
+}
 
 .image-container {
-    display: flex; /* 使用 Flexbox 布局 */
-    flex-wrap: wrap; /* 允许元素在需要时换行 */
-    justify-content: space-around; /* 图片之间平均分配空间 */
-    align-items: center; /* 垂直居中对齐 */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
 }
 
 .image-block {
-    flex: 1; /* 允许每个图片块自适应空间 */
-    margin: 10px; /* 为图片块添加外边距 */
-    text-align: center; /* 文字居中对齐 */
+    flex-basis: calc(33% - 10px); /* 每个图片块占据大约三分之一的宽度，减去间隙 */
+    text-align: center;
 }
 
 .image-block img {
-    width: 100%; /* 图片宽度占满其父容器 */
-    height: auto; /* 高度自动调整 */
-    max-width: 200px; /* 设置图片的最大宽度 */
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* 设置图片的最大宽度 */
+}
+
+@media screen and (max-width: 600px) {
+    .image-block {
+        flex-basis: calc(50% - 10px); /* 在较小屏幕上，每个图片块占据一半的宽度 */
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .image-block {
+        flex-basis: 100%; /* 在更小屏幕上，每个图片块占据整行的宽度 */
+    }
 }
