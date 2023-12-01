@@ -1,37 +1,49 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .place-row {
+    text-align: center;
     margin: 20px;
 }
 
 .image-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .image-block {
-    flex-basis: calc(33% - 10px); /* 每个图片块占据大约三分之一的宽度，减去间隙 */
-    text-align: center;
+    width: 30%; /* Adjust the width as per your need */
+    margin: 10px;
 }
 
 .image-block img {
     width: 100%;
     height: auto;
-    max-width: 300px; /* 设置图片的最大宽度 */
+}
+
+.image-block h3 {
+    margin: 5px 0;
+}
+
+.image-block p {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 800px) {
+    .image-block {
+        width: 45%; /* Images take half width on smaller screens */
+    }
 }
 
 @media screen and (max-width: 600px) {
     .image-block {
-        flex-basis: calc(50% - 10px); /* 在较小屏幕上，每个图片块占据一半的宽度 */
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .image-block {
-        flex-basis: 100%; /* 在更小屏幕上，每个图片块占据整行的宽度 */
+        width: 100%; /* Stack images on very small screens */
     }
 }
