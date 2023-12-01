@@ -12,11 +12,20 @@
     margin: 10px;
     width: calc(33.333% - 20px); /* Adjust width as needed */
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center-align the items */
 }
 
 .image-block img {
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Make image fill the container */
+    height: auto; /* Keep image aspect ratio */
+    object-fit: cover; /* Cover the area without stretching */
+    aspect-ratio: 4 / 3; /* Set a fixed aspect ratio for the images */
+}
+
+.image-block h3 {
+    margin-top: 10px; /* Add some space above the title */
 }
 
 /* Responsive behavior */
