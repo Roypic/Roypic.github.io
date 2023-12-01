@@ -1,49 +1,33 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 .place-row {
     text-align: center;
-    margin: 20px;
 }
 
 .image-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    justify-content: space-around;
 }
 
 .image-block {
-    width: 30%; /* Adjust the width as per your need */
     margin: 10px;
+    width: calc(33.333% - 20px); /* Adjust width as needed */
+    text-align: center;
 }
 
 .image-block img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
-.image-block h3 {
-    margin: 5px 0;
-}
-
-.image-block p {
-    margin: 0;
-}
-
-/* Responsive adjustments */
-@media screen and (max-width: 800px) {
+/* Responsive behavior */
+@media (max-width: 768px) {
     .image-block {
-        width: 45%; /* Images take half width on smaller screens */
+        width: calc(50% - 20px); /* 2 images per row on medium screens */
     }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 480px) {
     .image-block {
-        width: 100%; /* Stack images on very small screens */
+        width: 100%; /* 1 image per row on small screens */
     }
 }
