@@ -6,41 +6,37 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 10px; /* Adjust the space between images */
 }
 
 .image-block {
     margin: 10px;
-    width: calc(25% - 20px); /* Adjust width for 4 images per row */
+    width: calc(33.333% - 20px); /* Adjust width as needed */
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center-align the items */
 }
 
 .image-block img {
     width: 100%; /* Make image fill the container */
     height: auto; /* Keep image aspect ratio */
     object-fit: cover; /* Cover the area without stretching */
-    aspect-ratio: 1 / 1; /* Set a fixed aspect ratio for the images, change if needed */
+    aspect-ratio: 4 / 3; /* Set a fixed aspect ratio for the images */
 }
 
 .image-block h3 {
-    margin-top: 5px; /* Adjust space above the title */
+    margin-top: 10px; /* Add some space above the title */
 }
 
 /* Responsive behavior */
-@media (max-width: 1024px) {
-    .image-block {
-        width: calc(33.333% - 20px); /* 3 images per row on smaller desktops */
-    }
-}
-
 @media (max-width: 768px) {
     .image-block {
-        width: calc(50% - 20px); /* 2 images per row on tablets */
+        width: calc(50% - 20px); /* 2 images per row on medium screens */
     }
 }
 
 @media (max-width: 480px) {
     .image-block {
-        width: 100%; /* 1 image per row on mobile phones */
+        width: 100%; /* 1 image per row on small screens */
     }
 }
