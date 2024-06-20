@@ -13,8 +13,6 @@ Hi, I am a second year master student in Artificial Intelligence at  University 
 
 News
 ======
-[February, 2024]Preparing for ECCV 2024 <br>
-[November, 2023]A paper submitted to CVPR 2024 <br>
 [August, 2023] One paper got accpeted by BMVC 2023, as **Oral** presentation! <br> 
 [February, 2022] One paper got accepted by MIDL 2022!  <br> 
 
