@@ -13,8 +13,9 @@ Hi, I am a second year master student in Artificial Intelligence at  University 
 
 News
 ======
-[August, 2023] One paper got accpeted by npj digital medicine! <br> 
-[June, 2022] One paper got accepted by MICCAI 2024 IMIMIC!  <br> 
+[Octo, 2024] One paper got accpeted by WACV 2025! <br> 
+[June, 2024] One paper got accpeted by npj digital medicine! <br> 
+[May, 2024] One paper got accepted by MICCAI 2024 IMIMIC!  <br> 
 [August, 2023] One paper got accpeted by BMVC 2023, as **Oral** presentation! <br> 
 [February, 2022] One paper got accepted by MIDL 2022!  <br> 
 
