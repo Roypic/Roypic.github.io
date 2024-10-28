@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Hi, I am a second year master student in Artificial Intelligence at  University of Zurich. Ready to pursue my Ph.D at University of Bern focus on MLLM. My currently research interests are medical imaging analysis and computer vision. I received B.Eng. degree in School of Computer Science at Sichuan University (2022).
+Hi, I am a first year Ph.D student at University of Bern (ARTORG) supervised by Prof.Mauricio Reyes. My currently research interests are medical imaging analysis and computer vision. I received B.Eng. degree in School of Computer Science at Sichuan University (2022).
 
 News
 ======
