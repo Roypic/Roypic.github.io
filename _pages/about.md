@@ -13,7 +13,8 @@ Hi, I am a first year Ph.D student at University of Bern (ARTORG) supervised by 
 
 News
 ======
-[May, 2025] One paper got early accpeted by MICCAI 2025! <br> 
+[October, 2025] One paper got accpeted by BIBM 2025! <br> 
+[May, 2025] One paper got early accpeted by MICCAI 2025 (Oral)! <br> 
 [December, 2024] Won the 4th place in the MIDRC XAI Grand Challenge as team leader!<br> 
 [Octo, 2024] One paper got accpeted by WACV 2025! <br> 
 [June, 2024] One paper got accpeted by npj digital medicine! <br> 
