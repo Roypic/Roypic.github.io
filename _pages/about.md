@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-Hi, I am a first year Ph.D student at University of Bern (ARTORG) supervised by Prof.Mauricio Reyes. My currently research interests are medical imaging analysis and computer vision. I received B.Eng. degree in School of Computer Science at Sichuan University (2022).
+Hi, I am a second year Ph.D student at University of Bern (ARTORG) supervised by Prof.Mauricio Reyes and funded by kaiko.ai. My currently research interests are medical imaging analysis and computer vision. I received Msc degree of AI at University of Zurich (2024). I received B.Eng. degree in School of Computer Science at Sichuan University (2022).
 
 News
 ======
@@ -21,6 +21,11 @@ News
 [May, 2024] One paper got accepted by MICCAI 2024 IMIMIC!  <br> 
 [August, 2023] One paper got accpeted by BMVC 2023, as **Oral** presentation! <br> 
 [February, 2022] One paper got accepted by MIDL 2022!  <br> 
+
+Service
+======
+[2025] MICCAI 2025 Reviewer, WACV 2025 Reviewer, AAAI 2025 Reviewer, ISBI 2026 Reviewer <br> 
+[2024] MICCAI 2024 Reviewer <br> 
 
 <!-- Music
 ======
