@@ -1,49 +1,73 @@
 ---
 permalink: /
-title: "Bio"
-excerpt: "About me"
-author_profile: true
+title: "Home"
+excerpt: "Personal academic homepage"
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
+<div class="home-hero">
+  <h1>Haozhe Luo</h1>
+  <p class="tagline">Ph.D. Student | Medical Imaging, Computer Vision, and AI for Medicine</p>
+</div>
 
+<div class="intro-grid">
+  <div class="intro-card">
+    <p>
+      Hello! I am a second-year Ph.D. student at the University of Bern (ARTORG), supervised by
+      Prof. Mauricio Reyes and funded by kaiko.ai.
+      My current research focuses on medical imaging analysis and computer vision.
+    </p>
+    <p>
+      I received my M.Sc. in Artificial Intelligence from the University of Zurich (2024),
+      and my B.Eng. from the School of Computer Science at Sichuan University (2022).
+      My long-term goal is to build trustworthy AI systems that can create real clinical value.
+    </p>
+    <div class="quick-links">
+      <a href="mailto:haozhe.luo@uzh.ch">Email</a>
+      <a href="https://github.com/Roypic">GitHub</a>
+      <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=rnx7lhIAAAAJ">Google Scholar</a>
+      <a href="/cv/">CV</a>
+      <a href="/publications/">Publications</a>
+    </div>
+  </div>
+  <div class="profile-image-card">
+    <img src="/images/roy.jpg" alt="Portrait of Haozhe Luo">
+  </div>
+</div>
 
-Hi, I am a second year Ph.D student at University of Bern (ARTORG) supervised by Prof.Mauricio Reyes and funded by kaiko.ai. My currently research interests are medical imaging analysis and computer vision. I received Msc degree of AI at University of Zurich (2024). I received B.Eng. degree in School of Computer Science at Sichuan University (2022).
+## Research Interests
 
-News
-======
-[January, 2026] One paper got accpeted by ISBI 2026! <br> 
-[October, 2025] One paper got accpeted by BIBM 2025! <br> 
-[May, 2025] One paper got early accpeted by MICCAI 2025 (Oral)! <br> 
-[December, 2024] Won the 4th place in the MIDRC XAI Grand Challenge as team leader!<br> 
-[Octo, 2024] One paper got accpeted by WACV 2025! <br> 
-[June, 2024] One paper got accpeted by npj digital medicine! <br> 
-[May, 2024] One paper got accepted by MICCAI 2024 IMIMIC!  <br> 
-[August, 2023] One paper got accpeted by BMVC 2023, as **Oral** presentation! <br> 
-[February, 2022] One paper got accepted by MIDL 2022!  <br> 
+<div class="soft-card">
+  <strong>Core Topics:</strong> AI for Medicine, Medical Image Analysis, Computer Vision, Explainable and Robust Models
+</div>
 
-Service
-======
-[2025] MICCAI 2025 Reviewer, WACV 2025 Reviewer, AAAI 2025 Reviewer, ISBI 2026 Reviewer <br> 
-[2024] MICCAI 2024 Reviewer <br> 
+<div class="soft-card">
+  <strong>Current Direction:</strong> Designing data-efficient and clinically meaningful learning methods for medical image understanding and decision support.
+</div>
 
-<!-- Music
-======
-<html>
-<head>
-    <title>APlayer and MetingJS Demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.7.0/dist/APlayer.min.js"></script>
-</head>
-<body>
-    <div class="aplayer" data-id="002QE24W26baEy" data-server="tencent" data-type="album" data-fixed="true" data-autoplay="false"></div>
-    <script src="https://cdn.jsdelivr.net/npm/meting@1.1.0/dist/Meting.min.js"></script>
-</body>
+## News
 
-</html> -->
+<ul class="news-list">
+  <li><span class="news-date">[Jan 2026]</span> One paper accepted at ISBI 2026.</li>
+  <li><span class="news-date">[Oct 2025]</span> One paper accepted at BIBM 2025.</li>
+  <li><span class="news-date">[May 2025]</span> One paper early accepted at MICCAI 2025 (Oral).</li>
+  <li><span class="news-date">[Dec 2024]</span> 4th place in the MIDRC XAI Grand Challenge as team leader.</li>
+  <li><span class="news-date">[Oct 2024]</span> One paper accepted at WACV 2025.</li>
+  <li><span class="news-date">[Jun 2024]</span> One paper accepted at <em>npj Digital Medicine</em>.</li>
+  <li><span class="news-date">[May 2024]</span> One paper accepted at MICCAI 2024 IMIMIC.</li>
+  <li><span class="news-date">[Aug 2023]</span> One paper accepted at BMVC 2023 (Oral).</li>
+  <li><span class="news-date">[Feb 2022]</span> One paper accepted at MIDL 2022.</li>
+</ul>
 
+## Academic Service
 
+- 2025: Reviewer for MICCAI 2025, WACV 2025, AAAI 2025, and ISBI 2026
+- 2024: Reviewer for MICCAI 2024
 
+## Education
 
-
+- **Ph.D. Student**, University of Bern (ARTORG), 2024 - present
+- **M.Sc. in Artificial Intelligence**, University of Zurich, 2024
+- **B.Eng. in Computer Science**, Sichuan University, 2022

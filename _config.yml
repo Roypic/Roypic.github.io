@@ -8,10 +8,10 @@ aplayer:
   meting: true
 # Site Settings
 locale                   : "en-US"
-title                    : "Haozhe Luo"
+title                    : "Haozhe Luo - Home"
 title_separator          : "-"
 name                     : &name "Haozhe Luo"
-description              : &description "personal description"
+description              : &description "Ph.D. student in medical imaging and computer vision"
 url                      : https://roypic.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/Roypic"
