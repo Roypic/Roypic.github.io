@@ -12,13 +12,15 @@
 
 body {
   background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.62), transparent 32%),
-    linear-gradient(180deg, #f8f3ea 0%, var(--paper) 46%, #f1e7d9 100%);
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.4), transparent 32%),
+    linear-gradient(180deg, rgba(248, 243, 234, 0.72) 0%, rgba(244, 238, 227, 0.68) 46%, rgba(241, 231, 217, 0.76) 100%),
+    url("/assets/forest-breeze.gif") center center / cover no-repeat;
   color: var(--ink);
   font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
   overflow-x: hidden;
   position: relative;
   isolation: isolate;
+  background-attachment: scroll, scroll, scroll;
 }
 
 body:before,
@@ -34,8 +36,7 @@ body:after {
 
 body:before {
   background:
-    linear-gradient(115deg, rgba(244, 238, 227, 0.88), rgba(244, 238, 227, 0.52)),
-    url("/assets/sea_scot.jpg") center center / cover no-repeat;
+    linear-gradient(115deg, rgba(244, 238, 227, 0.48), rgba(244, 238, 227, 0.12));
 }
 
 body:after {
@@ -72,7 +73,7 @@ a:hover {
 }
 
 .masthead {
-  background: rgba(248, 242, 233, 0.88);
+  background: rgba(248, 242, 233, 0.52);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
 }
@@ -412,6 +413,29 @@ a:hover {
 }
 
 @media (max-width: 924px) {
+  body:before,
+  body:after {
+    opacity: 1;
+  }
+
+  .masthead {
+    background: rgba(248, 242, 233, 0.36);
+  }
+
+  .sidebar,
+  .page__inner-wrap,
+  .page__footer footer {
+    background: rgba(248, 243, 234, 0.26);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 10px 34px rgba(77, 59, 43, 0.08);
+    border: 1px solid rgba(68, 53, 40, 0.08);
+  }
+
+  .sidebar,
+  .page__inner-wrap {
+    padding: 1rem 1rem 1.1rem;
+  }
+
   .home-intro,
   .home-section,
   .home-columns,
@@ -451,14 +475,14 @@ a:hover {
   .sidebar,
   .page__inner-wrap,
   .page__footer footer {
-    background: rgba(248, 243, 234, 0.74);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 18px 60px rgba(77, 59, 43, 0.08);
+    background: rgba(248, 243, 234, 0.34);
+    backdrop-filter: blur(12px) saturate(1.1);
+    box-shadow: 0 18px 60px rgba(77, 59, 43, 0.12);
   }
 
   .sidebar {
     padding: 1.5rem 1.35rem;
-    border: 1px solid rgba(68, 53, 40, 0.1);
+    border: 1px solid rgba(68, 53, 40, 0.09);
   }
 
   .page__inner-wrap {
