@@ -8,7 +8,7 @@ aplayer:
   meting: true
 # Site Settings
 locale                   : "en-US"
-title                    : "Haozhe Luo - Home"
+title                    : "Haozhe Luo"
 title_separator          : "-"
 name                     : &name "Haozhe Luo"
 description              : &description "Ph.D. student in medical imaging and computer vision"

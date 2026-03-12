@@ -2,11 +2,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "CV + About"
+  - title: "CV & Bio"
     url: /cv/
   - title: "Research"
     url: /portfolio/
   - title: "Publications"
     url: /publications/
-  - title: "News"
+  - title: "Updates"
     url: /year-archive/
