@@ -82,25 +82,6 @@ redirect_from:
     </div>
   </section>
 
-  <section class="home-section">
-    <div class="section-heading">
-      <p>Selected Updates</p>
-    </div>
-    <div class="section-body">
-      <ul class="timeline-list">
-        <li><span>January 2026</span> One paper accepted at ISBI 2026.</li>
-        <li><span>October 2025</span> One paper accepted at BIBM 2025.</li>
-        <li><span>May 2025</span> One paper early accepted at MICCAI 2025 (Oral).</li>
-        <li><span>December 2024</span> 4th place in the MIDRC XAI Grand Challenge as team leader.</li>
-        <li><span>October 2024</span> One paper accepted at WACV 2025.</li>
-        <li><span>June 2024</span> One paper accepted at <em>npj Digital Medicine</em>.</li>
-        <li><span>May 2024</span> One paper accepted at MICCAI 2024 IMIMIC.</li>
-        <li><span>August 2023</span> One paper accepted at BMVC 2023 (Oral).</li>
-        <li><span>February 2022</span> One paper accepted at MIDL 2022.</li>
-      </ul>
-    </div>
-  </section>
-
   <section class="home-columns">
     <div>
       <p class="column-label">Academic Service</p>
