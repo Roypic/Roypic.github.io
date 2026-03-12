@@ -17,6 +17,8 @@ body {
   color: var(--ink);
   font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
   overflow-x: hidden;
+  position: relative;
+  isolation: isolate;
 }
 
 body:before,
@@ -25,7 +27,7 @@ body:after {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: -2;
+  z-index: 0;
   opacity: 0;
   transition: opacity 0.4s ease;
 }
@@ -37,7 +39,7 @@ body:before {
 }
 
 body:after {
-  z-index: -1;
+  z-index: 1;
   background:
     radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.22), transparent 30%),
     radial-gradient(circle at 80% 30%, rgba(255, 255, 255, 0.16), transparent 24%),
@@ -229,9 +231,10 @@ a:hover {
 
 .initial-content,
 #main,
+.masthead,
 .page__footer footer {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .home-canvas {
