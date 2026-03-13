@@ -495,6 +495,11 @@ a:hover {
   margin: 0.8rem 0 0;
 }
 
+.research-card__meta {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .research-card__cta {
   display: inline-block;
   margin-top: 1rem;
@@ -504,27 +509,10 @@ a:hover {
   text-transform: uppercase;
 }
 
-.research-evidence {
-  margin-top: 2rem;
-  padding: 1.2rem 1.3rem;
-  background: rgba(248, 243, 234, 0.22);
-  border: 1px solid rgba(68, 53, 40, 0.1);
-}
-
-.research-evidence__title {
-  margin: 0;
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.5rem;
-}
-
-.research-evidence__list {
-  margin: 0.8rem 0 0;
-  padding-left: 1.2rem;
-}
-
 @media (max-width: 924px) {
   .masthead {
     background: rgba(248, 242, 233, 0.36);
+    z-index: 40;
   }
 
   .sidebar,
@@ -590,6 +578,15 @@ a:hover {
     border-right: 1px solid rgba(68, 53, 40, 0.08);
     border-bottom: 1px solid rgba(68, 53, 40, 0.08);
   }
+}
+
+.greedy-nav {
+  z-index: 50;
+}
+
+.greedy-nav .hidden-links {
+  z-index: 60;
+  min-width: 220px;
 }
 
 @keyframes forestPulse {
