@@ -11,40 +11,50 @@
 }
 
 body {
-  background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.4), transparent 32%),
-    linear-gradient(180deg, rgba(248, 243, 234, 0.72) 0%, rgba(244, 238, 227, 0.68) 46%, rgba(241, 231, 217, 0.76) 100%),
-    url("/assets/forest-breeze.gif") center center / cover no-repeat;
+  background: linear-gradient(180deg, rgba(248, 243, 234, 0.55) 0%, rgba(244, 238, 227, 0.46) 46%, rgba(241, 231, 217, 0.6) 100%);
   color: var(--ink);
   font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
   overflow-x: hidden;
   position: relative;
   isolation: isolate;
-  background-attachment: scroll, scroll, scroll;
 }
 
-body:before,
-body:after {
-  content: "";
+.site-bg {
   position: fixed;
   inset: 0;
-  pointer-events: none;
   z-index: 0;
-  opacity: 0;
-  transition: opacity 0.4s ease;
+  overflow: hidden;
+  pointer-events: none;
 }
 
-body:before {
-  background:
-    linear-gradient(115deg, rgba(244, 238, 227, 0.48), rgba(244, 238, 227, 0.12));
+.site-bg__media,
+.site-bg__wash,
+.site-bg__glow {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
 }
 
-body:after {
-  z-index: 1;
+.site-bg__media {
+  object-fit: cover;
+  transform: scale(1.08);
+  filter: saturate(0.95) contrast(1.02) brightness(0.84);
+  animation: forestPulse 16s ease-in-out infinite alternate;
+}
+
+.site-bg__wash {
   background:
-    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.22), transparent 30%),
-    radial-gradient(circle at 80% 30%, rgba(255, 255, 255, 0.16), transparent 24%),
-    radial-gradient(circle at 60% 75%, rgba(138, 90, 59, 0.12), transparent 26%);
+    linear-gradient(115deg, rgba(245, 239, 228, 0.48), rgba(245, 239, 228, 0.12)),
+    linear-gradient(180deg, rgba(246, 240, 231, 0.22) 0%, rgba(244, 238, 227, 0.1) 46%, rgba(241, 231, 217, 0.3) 100%);
+}
+
+.site-bg__glow {
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 255, 255, 0.22), transparent 28%),
+    radial-gradient(circle at 78% 24%, rgba(255, 255, 255, 0.14), transparent 24%),
+    radial-gradient(circle at 60% 74%, rgba(138, 90, 59, 0.1), transparent 26%);
+  animation: ambientFloat 18s ease-in-out infinite alternate;
 }
 
 h1,
@@ -457,20 +467,12 @@ a:hover {
   width: 100%;
 }
 
-.research-card__visual svg {
+.research-card__visual img {
   display: block;
   width: 100%;
   height: auto;
-}
-
-.research-card__visual rect,
-.research-card__visual circle,
-.research-card__visual path {
-  fill: none;
-  stroke: rgba(42, 31, 23, 0.82);
-  stroke-width: 5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  border: 1px solid rgba(68, 53, 40, 0.1);
+  background: rgba(255, 252, 247, 0.35);
 }
 
 .research-card__label {
@@ -521,11 +523,6 @@ a:hover {
 }
 
 @media (max-width: 924px) {
-  body:before,
-  body:after {
-    opacity: 1;
-  }
-
   .masthead {
     background: rgba(248, 242, 233, 0.36);
   }
@@ -568,20 +565,6 @@ a:hover {
 }
 
 @media (min-width: 925px) {
-  body:before,
-  body:after {
-    opacity: 1;
-  }
-
-  body:before {
-    animation: scenicDrift 30s ease-in-out infinite alternate;
-    transform-origin: center;
-  }
-
-  body:after {
-    animation: ambientFloat 18s ease-in-out infinite alternate;
-  }
-
   .sidebar,
   .page__inner-wrap,
   .page__footer footer {
@@ -609,15 +592,15 @@ a:hover {
   }
 }
 
-@keyframes scenicDrift {
+@keyframes forestPulse {
   0% {
-    transform: scale(1) translate3d(0, 0, 0);
-    filter: saturate(0.9) brightness(0.92);
+    transform: scale(1.06) translate3d(0, 0, 0);
+    filter: saturate(0.9) brightness(0.82);
   }
 
   100% {
-    transform: scale(1.08) translate3d(-1.5%, -1%, 0);
-    filter: saturate(1) brightness(0.98);
+    transform: scale(1.12) translate3d(-1.2%, -0.8%, 0);
+    filter: saturate(1) brightness(0.9);
   }
 }
 
