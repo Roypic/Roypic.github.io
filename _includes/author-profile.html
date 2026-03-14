@@ -34,6 +34,12 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
+      {% if author.wechat %}
+        <li><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat: {{ author.wechat }}</li>
+      {% endif %}
+      {% if author.whatsapp %}
+        <li><a href="https://wa.me/{{ author.whatsapp | replace: ' ', '' | replace: '+', '' }}"><i class="fab fa-fw fa-whatsapp" aria-hidden="true"></i> WhatsApp</a></li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
