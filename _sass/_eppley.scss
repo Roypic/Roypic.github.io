@@ -432,7 +432,7 @@ a:hover {
 }
 
 .research-atlas__intro {
-  max-width: 48rem;
+  max-width: 56rem;
   margin-bottom: 2rem;
   font-size: 1.08rem;
 }
@@ -440,15 +440,17 @@ a:hover {
 .research-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.4rem;
+  gap: 1.5rem;
+  align-items: stretch;
 }
 
 .research-card {
   display: grid;
-  grid-template-columns: 148px minmax(0, 1fr);
-  gap: 1.2rem;
-  align-items: center;
-  padding: 1.2rem;
+  grid-template-columns: 1fr;
+  gap: 1.15rem;
+  align-items: start;
+  min-width: 0;
+  padding: 1.5rem;
   color: inherit;
   text-decoration: none;
   background: rgba(248, 243, 234, 0.24);
@@ -464,7 +466,7 @@ a:hover {
 }
 
 .research-card__visual {
-  width: 100%;
+  width: min(100%, 12rem);
 }
 
 .research-card__visual img {
@@ -475,38 +477,61 @@ a:hover {
   background: rgba(255, 252, 247, 0.35);
 }
 
+.research-card__copy {
+  min-width: 0;
+}
+
 .research-card__label {
   margin: 0 0 0.35rem;
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  text-decoration: none;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .research-card__copy h2 {
   margin: 0;
-  font-size: 2rem;
-  line-height: 0.95;
+  padding-bottom: 0;
+  font-size: clamp(1.7rem, 2.1vw, 2.25rem);
+  line-height: 1.08;
   border: 0;
+  text-decoration: none;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .research-card__copy p {
   margin: 0.8rem 0 0;
+  font-size: 1rem;
+  line-height: 1.75;
+  text-decoration: none;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .research-card__meta {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.82rem;
 }
 
 .research-card__cta {
   display: inline-block;
   margin-top: 1rem;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  text-decoration: none;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 @media (max-width: 924px) {
@@ -549,6 +574,12 @@ a:hover {
   .section-heading p,
   .column-label {
     margin-bottom: 0.35rem;
+  }
+}
+
+@media (min-width: 925px) {
+  .research-atlas {
+    max-width: 72rem;
   }
 }
 
