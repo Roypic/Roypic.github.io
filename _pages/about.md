@@ -26,7 +26,7 @@ redirect_from:
         The long arc of the work is straightforward: develop AI systems for medicine that are not merely accurate on paper, but genuinely useful, accountable, and deployable.
       </p>
       <div class="editorial-links">
-        <a href="mailto:haozhe.luo@uzh.ch">Email</a>
+        <a href="mailto:haozhe.luo@unibe.ch">Email</a>
         <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=rnx7lhIAAAAJ">Scholar</a>
         <a href="https://github.com/Roypic">GitHub</a>
         <a href="/cv/">Curriculum Vitae</a>
